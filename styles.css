@@ -1,0 +1,13 @@
+.image {
+  display: block;
+  max-width: 100%;
+}
+
+.item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.task-3 {
+  margin-right: auto;
+  margin-left: auto;
+}
