@@ -1,7 +1,6 @@
 console.log('TASK 1:');
 const categories = document.getElementById('categories').children;
-const categoriesLength = categories.length;
-console.log(categoriesLength, 'categories in list.');
+console.log(categories.length, 'categories in list.');
 
 for (const category of categories) {
   console.log(
